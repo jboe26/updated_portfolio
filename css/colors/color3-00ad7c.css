@@ -1,0 +1,28 @@
+
+/****  C0LOR1 #fc252d ****/
+
+.about-content .button-download-resume:hover,
+.skills .progress .progress-bar,
+.single-experience .open,
+.single-education .open,
+.ul-filter li:hover,
+.ul-filter li.active,
+.contact-form input[type="submit"] {
+	background-color: #00ad7c;
+}
+
+.about-section .social-links li:hover,
+.contact-form .text-danger,
+.contact-section .social-links li:hover {
+	color: #00ad7c;
+}
+
+.home-section .navbar .navbar-nav a:hover,
+.home-section .navbar .navbar-nav a.active {
+	border-bottom: 3px solid #00ad7c;
+}
+
+.ul-filter li:hover,
+.ul-filter li.active {
+	border: 1px solid #00ad7c;
+}

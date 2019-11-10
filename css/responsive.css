@@ -1,0 +1,236 @@
+/* Small Screen */
+@media (min-width: 767px) and (max-width: 991px)
+{
+	/* START HOME SECTION */
+	.home-section .home-text h1 {
+		font-size: 40px;
+	}
+
+	.home-section .home-text h2 {
+		font-size: 20px;
+	}
+
+	.home-section .navbar-inverse .navbar-nav a {
+		margin: 10px 15px;
+		font-size: 14px;
+	}
+	/* / END HOME SECTION */
+
+	/* START ABOUT SECTION */
+	.social-links-about li {
+		margin: 17px 24px 15px;
+	}
+	/* / END ABOUT SECTION */
+
+	/* START SKILLS SECTION */
+	.skills {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	/* / END SKILLS SECTION */
+
+	/* START SERVICES SECTION */
+	.single-service {
+		padding: 0 100px 60px;
+	}
+	/* / END SERVICES SECTION */
+}
+
+/* Tablette */
+@media (min-width: 469px) and (max-width: 767px)
+{
+	/* START HOME SECTION */
+	.home-section .home-text h1 {
+		font-size: 35px;
+	}
+
+	.home-section .home-text h2 {
+		font-size: 18px;
+	}
+	/* / END HOME SECTION */
+
+	/* START ABOUT SECTION */
+	.social-links-about li {
+		margin: 17px 24px 15px;
+	}
+	/* / END ABOUT SECTION */
+
+	/* START SKILLS SECTION */
+	.skills {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	/* / END SKILLS SECTION */
+
+	/* START SERVICES SECTION */
+	.single-service {
+		padding: 0 70px 60px;
+	}
+	/* / END SERVICES SECTION */
+
+	/* START EXPERIENCE SECTION */
+	.single-experience .period {
+		padding: 8px;
+		font-size: 14px;
+	}
+
+	.single-experience .title {
+		padding: 14px 14px 12px;
+	}
+
+	.single-experience .title h2 {
+		margin-bottom: 12px;
+		font-size: 16px;
+	}
+
+	.single-experience .title h3 {
+		font-size: 16px;
+	}
+
+	.single-experience .open {
+		font-size: 30px;
+	}
+
+	.single-experience .text {
+		letter-spacing: 0;
+	}
+	/* / END EXPERIENCE SECTION */
+
+	/* START EDUCATION SECTION */
+	.single-education .period {
+		padding: 8px;
+		font-size: 14px;
+	}
+
+	.single-education .title {
+		padding: 14px 14px 12px;
+	}
+
+	.single-education .title h2 {
+		margin-bottom: 12px;
+		font-size: 16px;
+	}
+
+	.single-education .title h3 {
+		font-size: 16px;
+	}
+
+	.single-education .open {
+		font-size: 30px;
+	}
+
+
+	.single-education .text {
+		letter-spacing: 0;
+	}
+	/* / END EDUCATION SECTION */
+}
+
+/* Mobile */
+@media (max-width: 470px)
+{
+	/* START HOME SECTION */
+	.home-section .home-text h1 {
+		font-size: 30px;
+	}
+
+	.home-section .home-text h2 {
+		font-size: 18px;
+	}
+	/* / END HOME SECTION */
+
+	/* START ABOUT SECTION */
+	.social-links-about li {
+		margin: 17px 12px 15px;
+		font-size: 14px;
+	}
+	/* / END ABOUT SECTION */
+
+	/* START SKILLS SECTION */
+	.skills {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	.skills .skill-name {
+		font-size: 14px;
+	}
+	/* / END SKILLS SECTION */
+
+	/* START EXPERIENCE SECTION */
+	.single-experience .period {
+		padding: 8px;
+		font-size: 12px;
+		letter-spacing: 0;
+	}
+
+	.single-experience .title {
+		padding: 14px 14px 12px;
+		width: 68%;
+	}
+
+	.single-experience .title h2 {
+		margin-bottom: 10px;
+		font-size: 15px;
+		letter-spacing: .8px;
+	}
+
+	.single-experience .title h3 {
+		font-size: 15px;
+		letter-spacing: .8px;
+	}
+
+	.single-experience .open {
+		font-size: 20px;
+		width: 15%;
+	}
+
+	.single-experience .detail {
+		padding: 15px 15px 0 15px;
+	}
+
+	.single-experience .text {
+		padding-right: 15px;
+		font-size: 14px;
+	}
+	/* / END EXPERIENCE SECTION */
+
+	/* START EDUCATION SECTION */
+	.single-education .period {
+		padding: 8px;
+		font-size: 12px;
+		letter-spacing: 0;
+	}
+
+	.single-education .title {
+		padding: 14px;
+		width: 68%;
+	}
+
+	.single-education .title h2 {
+		margin-bottom: 10px;
+		font-size: 15px;
+		letter-spacing: .8px;
+	}
+
+	.single-education .title h3 {
+		font-size: 15px;
+		letter-spacing: .8px;
+	}
+
+	.single-education .open {
+		font-size: 20px;
+		width: 15%;
+	}
+
+	.single-education .detail {
+		padding: 15px 15px 0 15px;
+	}
+
+	.single-education .text {
+		padding-right: 15px;
+		font-size: 14px;
+		//line-height: 1.5em;
+	}
+	/* / END EDUCATION SECTION */
+}

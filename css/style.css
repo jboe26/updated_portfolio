@@ -1,0 +1,756 @@
+/*
+* --------------------------------------------------------------------------------------
+Author: DeltaTheme
+Template Name: Veigar - Personal Portfolio Template
+Version: 1.1
+* --------------------------------------------------------------------------------------
+*/
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 01.GLOBAL CSS STYLE
+* 02.HOME CSS STYLE
+* 03.ABOUT CSS STYLE
+* 04.SKILLS CSS STYLE
+* 05.SERVICES CSS STYLE
+* 06.EXPERIENCE CSS STYLE
+* 07.EDUCATION CSS STYLE
+* 08.PORTFOLIO CSS STYLE
+* 09.CONTACT CSS STYLE
+* 10.LOADER CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 01.GLOBAL CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+body {
+	font: normal 16px "Lekton", Arial, sans-serif;
+	color: #000000;
+	line-height: 1.5em;
+	letter-spacing: 0.02em;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.padding-section {
+	padding-top: 67px;
+	padding-bottom: 90px;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 77px;
+}
+
+.section-title h2 {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 0.04em;
+}
+
+.section-title h3 {
+	font-size: 14px;
+	margin-top: 16px;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 02.HOME CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.home-section {
+	margin-bottom: 60px;
+	background: url('http://placehold.it/1280x853') center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.home-section .opacity {
+	background-color: rgba(0,0,0,.66);
+	height: 100%;
+}
+
+.home-section .display-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.home-section .display-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.home-text {
+	text-align: center;
+}
+
+.home-text h1 {
+	font-size: 60px;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+}
+
+.home-text h2 {
+	font-size: 22px;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
+
+.home-section .scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	margin-left: -15px;
+	cursor: pointer;
+	animation: down 2s ease infinite;
+	-webkit-animation: down 2s ease infinite;
+	-moz-animation: down 2s ease infinite;
+	-o-animation: down 2s ease infinite;
+}
+
+@keyframes down {
+	0% { bottom: 30px; }
+	50% { bottom: 60px; }
+	100% { bottom: 30px; }
+}
+
+@-webkit-keyframes down {
+	0% { bottom: 30px; }
+	50% { bottom: 60px; }
+	100% { bottom: 30px; }
+}
+
+@-moz-keyframes down {
+	0% { bottom: 30px; }
+	50% { bottom: 60px; }
+	100% { bottom: 30px; }
+}
+
+@-o-keyframes down {
+	0% { bottom: 30px; }
+	50% { bottom: 60px; }
+	100% { bottom: 30px; }
+}
+
+.home-section .scroll-down i {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.home-section .navbar {
+	width: 100%;
+	min-height: 60px;
+	background-color: #2a363b;
+	text-align: center;
+}
+
+.home-section .navbar .navbar-nav {
+	display: inline-block;
+	float: none !important;
+	vertical-align: top;
+}
+
+.home-section .navbar .navbar-nav a {
+	padding: 10px 0 8px;
+	margin: 10px 25px;
+	border-bottom: 3px solid #2a363b;
+	font-weight: bold;
+	color: #ffffff;
+	transition: all .2s;
+}
+
+.home-section .navbar .navbar-nav a.active {
+	background-color: inherit;
+}
+
+.home-section .navbar .navbar-toggle {
+	margin-top: 12px;
+	border-color: #ffffff;
+}
+
+.home-section .navbar .navbar-toggle:hover,
+.home-section .navbar .navbar-toggle:focus {
+	background-color: #2a2c30;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 03.ABOUT CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.about-section {
+	background-color: #eeeeee;
+}
+
+.image-about img {
+	width: 100%;
+}
+
+.about-section .social-links {
+	margin-top: 1px;
+	background-color: #2a2c30;
+}
+
+.about-section .social-links ul {
+	padding: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+.about-section .social-links li {
+	display: inline-block;
+	margin: 5px 17px 2px;
+	font-size: 18px;
+	color: #eeeeee;
+	transition: all .2s;
+}
+
+.about-content h2 {
+	margin-top: 30px;
+	margin-bottom: 22px;
+	font-size: 30px;
+}
+
+.about-content p {
+	line-height: 32px;
+}
+
+.about-content .button-download-resume {
+	display: inline-block;
+	margin-top: 20px;
+	background-color: #2a2c30;
+	color: #ffffff;
+	transition: all .2s;
+}
+
+.about-content .button-download-resume a {
+	display: inline-block;
+	padding: 13px 22px;
+}
+
+.about-content .button-download-resume i {
+	padding-right: 8px;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 04.SKILLS CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.skills-section {
+	padding-bottom: 10px;
+	background-color: #2a2c30;
+	color: #ffffff;
+}
+
+.skills {
+	margin: 0 12% 80px;
+}
+
+.skills h2 {
+	margin-top: 0;
+	margin-bottom: 35px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.skills .skill-name {
+	position: absolute;
+	line-height: 37px;
+	margin-left: 12px;
+}
+
+.skills .progress {
+	margin-bottom: 35px;
+	height: 36px;
+	background-color: #ffffff;
+	border-radius: 0;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 05.SERVICES CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.services-section {
+	padding-bottom: 12px;
+	background-color: #eeeeee;
+}
+
+.single-service {
+	padding: 0 20px 60px;
+	text-align: center;
+}
+
+.single-service i {
+	font-size: 60px;
+}
+
+.single-service h2 {
+	margin-top: 13px;
+	margin-bottom: 12px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 06.EXPERIENCE CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.experience-section {
+	padding-bottom: 50px;
+	background-color: #2a2c30;
+	color: #ffffff;
+}
+
+.single-experience table {
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+.single-experience .period {
+	background-color: #eeeeee;
+	padding: 10px;
+	text-align: center;
+	width: 17%;
+	font-size: 20px;
+	line-height: 20px;
+	color: #2a2c30;
+}
+
+.single-experience .title {
+	background-color: #ffffff;
+	padding: 25px 25px 20px;
+	width: 73%;
+}
+
+.single-experience .title h2 {
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2a2c30;
+}
+
+.single-experience .title h3 {
+	margin: 0;
+	font-size: 20px;
+	color: #2a2c30;
+}
+
+.single-experience .open {
+	padding-top: 3px;
+	width: 10%;
+	font-size: 40px;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+	transition: all .2s;
+}
+
+.single-experience .open:hover {
+	background-color: #eeeeee;
+	color: #2a2c30;
+}
+
+.single-experience .detail {
+	display: none;
+	background-color: #ffffff;
+	padding: 30px 30px 0 30px;
+	border-top: 1px solid #2a2c30;
+}
+
+.single-experience .text {
+	margin-bottom: 30px;
+	padding-right: 30px;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.single-experience .text p {
+	color: #000000;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 07.EDUCATION CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.education-section {
+	padding-bottom: 50px;
+	background-color: #eeeeee;
+}
+
+.single-education table {
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+.single-education .period {
+	background-color: #2a2c30;
+	padding: 10px;
+	text-align: center;
+	width: 17%;
+	font-size: 20px;
+	line-height: 20px;
+	color: #ffffff;
+}
+
+.single-education .title {
+	background-color: #ffffff;
+	padding: 25px 25px 20px;
+	width: 73%;
+}
+
+.single-education .title h2 {
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2a2c30;
+}
+
+.single-education .title h3 {
+	margin: 0;
+	font-size: 20px;
+	color: #2a2c30;
+}
+
+.single-education .open {
+	padding-top: 3px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 10%;
+	font-size: 40px;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+	transition: all .2s;
+}
+
+.single-education .open:hover {
+	background-color: #2a2c30;
+}
+
+.single-education .detail {
+	display: none;
+	background-color: #ffffff;
+	padding: 30px 30px 0 30px;
+	border-top: 1px solid #eeeeee;
+}
+
+.single-education .text {
+	margin-bottom: 30px;
+	padding-right: 30px;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.single-education .text p {
+	color: #000000;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 08.PORTFOLIO CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.portfolio-section {
+	background-color: #2a2c30;
+	color: #ffffff;
+}
+
+.ul-filter {
+	text-align: center;
+}
+
+.ul-filter li {
+	display: inline-block;
+	padding: 7px 16px;
+	margin: 0 8px 18px;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+	transition: all .2s;
+}
+
+.item {
+	margin-top: 30px;
+}
+
+.item img {
+	width: 100%;
+	transition: all .2s;
+	cursor: pointer;
+}
+
+.item img:hover {
+	opacity: .7;
+}
+
+.portfolio-section #Container .mix{
+	display: none;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 09.CONTACT CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.contact-section {
+	padding-bottom: 0;
+	background-color: #eeeeee;
+}
+
+.contact-info {
+	padding-bottom: 60px;
+}
+
+.contact-info .title {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contact-info blockquote {
+	padding: 5px 20px 0;
+}
+
+.contact-form {
+	padding-bottom: 40px;
+}
+
+.contact-form input {
+	width: 100%;
+	height: 55px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	border: none;
+	background-color: #2a2c30;
+	color: #ffffff;
+}
+
+.contact-form textarea {
+	width: 585px;
+	padding-top: 14px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	border: none;
+	height: 154px;
+	min-height: 154px;
+	max-width: 100%;
+	min-width: 100%;
+	background-color: #2a2c30;
+	color: #ffffff;
+}
+
+.contact-form input[type="submit"] {
+	color: #ffffff;
+	padding-left: 0;
+	transition: all .2s;
+}
+
+.contact-form input[type="submit"]:hover {
+	background-color: #2a2c30;
+}
+
+.contact-form .text-success {
+	color: #50B948;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contact-form .text-danger {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contact-section .social-links ul {
+	padding: 0;
+	text-align: center;
+	background-color: #2a2c30;
+}
+
+.contact-section .social-links li {
+	display: inline-block;
+	margin: 24px 35px 20px;
+	font-size: 20px;
+	color: #eeeeee;
+	transition: all .2s;
+}
+
+
+/*
+* --------------------------------------------------------------------------------------
+* 10.LOADER CSS STYLE
+* --------------------------------------------------------------------------------------
+*/
+
+.loading-overlay {
+	padding-top: 40vh;
+	background-color: #ffffff;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+
+.sk-circle {
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.sk-circle .sk-child {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.sk-circle .sk-child:before {
+	content: '';
+	display: block;
+	margin: 0 auto;
+	width: 15%;
+	height: 15%;
+	background-color: #333;
+	border-radius: 100%;
+	-webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+	      animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+}
+
+.sk-circle .sk-circle2 {
+	-webkit-transform: rotate(30deg);
+	  -ms-transform: rotate(30deg);
+	      transform: rotate(30deg); }
+.sk-circle .sk-circle3 {
+	-webkit-transform: rotate(60deg);
+	  -ms-transform: rotate(60deg);
+	      transform: rotate(60deg); }
+.sk-circle .sk-circle4 {
+	-webkit-transform: rotate(90deg);
+	  -ms-transform: rotate(90deg);
+	      transform: rotate(90deg); }
+.sk-circle .sk-circle5 {
+	-webkit-transform: rotate(120deg);
+	  -ms-transform: rotate(120deg);
+	      transform: rotate(120deg); }
+.sk-circle .sk-circle6 {
+	-webkit-transform: rotate(150deg);
+	  -ms-transform: rotate(150deg);
+	      transform: rotate(150deg); }
+.sk-circle .sk-circle7 {
+	-webkit-transform: rotate(180deg);
+	  -ms-transform: rotate(180deg);
+	      transform: rotate(180deg); }
+.sk-circle .sk-circle8 {
+	-webkit-transform: rotate(210deg);
+	  -ms-transform: rotate(210deg);
+	      transform: rotate(210deg); }
+.sk-circle .sk-circle9 {
+	-webkit-transform: rotate(240deg);
+	  -ms-transform: rotate(240deg);
+	      transform: rotate(240deg); }
+.sk-circle .sk-circle10 {
+	-webkit-transform: rotate(270deg);
+	  -ms-transform: rotate(270deg);
+	      transform: rotate(270deg); }
+.sk-circle .sk-circle11 {
+	-webkit-transform: rotate(300deg);
+	  -ms-transform: rotate(300deg);
+	      transform: rotate(300deg); }
+.sk-circle .sk-circle12 {
+	-webkit-transform: rotate(330deg);
+	  -ms-transform: rotate(330deg);
+	      transform: rotate(330deg); }
+.sk-circle .sk-circle2:before {
+	-webkit-animation-delay: -1.1s;
+	      animation-delay: -1.1s; }
+.sk-circle .sk-circle3:before {
+	-webkit-animation-delay: -1s;
+	      animation-delay: -1s; }
+.sk-circle .sk-circle4:before {
+	-webkit-animation-delay: -0.9s;
+	      animation-delay: -0.9s; }
+.sk-circle .sk-circle5:before {
+	-webkit-animation-delay: -0.8s;
+	      animation-delay: -0.8s; }
+.sk-circle .sk-circle6:before {
+	-webkit-animation-delay: -0.7s;
+	      animation-delay: -0.7s; }
+.sk-circle .sk-circle7:before {
+	-webkit-animation-delay: -0.6s;
+	      animation-delay: -0.6s; }
+.sk-circle .sk-circle8:before {
+	-webkit-animation-delay: -0.5s;
+	      animation-delay: -0.5s; }
+.sk-circle .sk-circle9:before {
+	-webkit-animation-delay: -0.4s;
+	      animation-delay: -0.4s; }
+.sk-circle .sk-circle10:before {
+	-webkit-animation-delay: -0.3s;
+	      animation-delay: -0.3s; }
+.sk-circle .sk-circle11:before {
+	-webkit-animation-delay: -0.2s;
+	      animation-delay: -0.2s; }
+.sk-circle .sk-circle12:before {
+	-webkit-animation-delay: -0.1s;
+	      animation-delay: -0.1s; }
+
+@-webkit-keyframes sk-circleBounceDelay {
+	0%, 80%, 100% {
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	} 40% {
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	}
+}
+
+@keyframes sk-circleBounceDelay {
+	0%, 80%, 100% {
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	} 40% {
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	}
+}
