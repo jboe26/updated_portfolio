@@ -77,7 +77,8 @@ ul {
 
 .home-section {
 	margin-bottom: 60px;
-	background: url('http://placehold.it/1280x853') center center fixed;
+	background: url('http://businessincalgary.com/wp-content/uploads/2018/01/iStock-689249328WEB.jpg') center center fixed;
+	opacity: 5;
 	background-size: cover;
 	height: 100vh;
 }
