@@ -237,20 +237,21 @@ ul {
 	line-height: 32px;
 }
 
-.about-content .button-download-resume {
+.social-links .button-download-resume {
 	display: inline-block;
 	margin-top: 20px;
+	margin-left: 85px;
 	background-color: #2a2c30;
 	color: #ffffff;
 	transition: all .2s;
 }
 
-.about-content .button-download-resume a {
+.social-links .button-download-resume a {
 	display: inline-block;
 	padding: 13px 22px;
 }
 
-.about-content .button-download-resume i {
+.social-links .button-download-resume i {
 	padding-right: 8px;
 }
 
