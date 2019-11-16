@@ -570,7 +570,23 @@
 				</div>
 				<div class="col-md-7">
 					<div class="contact-form">
-						<form id="contactForm" data-toggle="validator" method="POST" data-netlify="true">
+
+							<form name="contact" method="POST" data-netlify="true">
+									<p>
+									  <label>Your Name: <input type="text" name="name" /></label>   
+									</p>
+									<p>
+									  <label>Your Email: <input type="email" name="email" /></label>
+									</p>
+									
+									<p>
+									  <label>Message: <textarea name="message"></textarea></label>
+									</p>
+									<p>
+									  <button type="submit">Send</button>
+									</p>
+								  </form>
+						<!-- <form id="contactForm" data-toggle="validator" method="POST" data-netlify="true">
 							<div class="row">
 								<div class="col-sm-6">
 									<input type="text" id="name" placeholder="Your name..." required>
@@ -586,7 +602,7 @@
 								</div>
 								<div id="msgSubmit"></div>
 							</div>
-						</form>
+						</form> -->
 					</div>
 				</div>
 			</div>
