@@ -579,7 +579,7 @@ ul {
 	color: #ffffff;
 }
 
-.contact-form input[type="submit"] {
+.contact-form input[type="submit"], #msgSubmit {
 	color: #ffffff;
 	padding-left: 0;
 	transition: all .2s;
