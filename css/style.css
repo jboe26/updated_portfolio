@@ -212,7 +212,7 @@ h3 {
 
 .image-about img {
 	width: 100%;
-	align-content: right;
+	float: right;
 }
 
 .about-section .social-links {
