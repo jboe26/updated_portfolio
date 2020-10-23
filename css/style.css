@@ -197,7 +197,7 @@ h3 {
 }
 
 #collapse1, .social-links {
-	background-color: darkblue;
+	background-color: #8b0000;
 }
 
 /*
@@ -276,7 +276,7 @@ h3 {
 
 .skills-section {
 	padding-bottom: 10px;
-	background-color: darkblue;
+	background-color: #8b0000;
 	color: #ffffff;
 }
 
@@ -519,7 +519,7 @@ h3 {
 */
 
 .portfolio-section {
-	background-color: darkblue;
+	background-color: #8b0000;
 	color: #ffffff;
 }
 
@@ -639,7 +639,7 @@ h4, h5 {
 .contact-section .social-links ul {
 	padding: 0;
 	text-align: center;
-	background-color: darkblue;
+	background-color: #8b0000;
 }
 
 
